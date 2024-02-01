@@ -1,0 +1,42 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(252, 243, 243);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+}
+.left {
+  margin-left: 20px;
+}
+.left h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Delicious Handrawn";
+}
+.left h1 a {
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+.right button {
+  background-color: rgb(8, 8, 8);
+  /* background-image: linear-gradient(to bottom right, rgb(128, 128, 184), white); */
+  border-radius: 0.5rem;
+  margin: 0.3rem;
+  padding: 10px;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+}
+.right button:hover {
+  background-color: white;
+  color: black;
+}
+.linkhome {
+  text-decoration: none;
+}
